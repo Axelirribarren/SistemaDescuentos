@@ -1,0 +1,22 @@
+# Qt / Qt Creator
+*.user
+*.user.*
+build/
+build-*/
+
+# Compilación
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+
+# MinGW
+*.pdb
+
+# CMake (por si acaso)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
