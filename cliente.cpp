@@ -4,7 +4,15 @@ string Cliente::getNombres() const
 {
     return nombres;
 }
-
+// En cliente.cpp
+Cliente::Cliente() {
+    // Inicialización segura "por defecto"
+    this->nombres = "";
+    this->cantAcumulada = 0;
+    this->montoAcumulado = 0.0;
+    this->tipo = ' ';
+    this->estrategia = nullptr; // ¡Vital para que no explote el destructor!
+}
 void Cliente::setNombres(const string &newNombres)
 {
     nombres = newNombres;

@@ -10,9 +10,7 @@ class DescuentoA: public EstrategiaDescuento
 public:
     DescuentoA();
     ~DescuentoA();
-    double aplicar(int cant, float monto) override{
-        return calcularPorCantidad(cant) + calcularPorMonto(monto);
-    }
+    double aplicar(int cant, float monto) override;
 };
 
 #endif // DESCUENTOA_H

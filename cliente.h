@@ -13,6 +13,7 @@ private:
     char tipo;
     EstrategiaDescuento * estrategia;
 public:
+    Cliente();
     Cliente(string n, int c, float m, char t, EstrategiaDescuento* e);
     double obtenerDescuento(){
         return estrategia->aplicar(cantAcumulada,montoAcumulado);
