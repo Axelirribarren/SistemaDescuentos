@@ -20,3 +20,11 @@ CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
+
+# Archivos de datos generados
+*.dat
+
+# Ejecutables del proyecto
+SistemaDescuentos
+SistemaDescuentos.exe
+
