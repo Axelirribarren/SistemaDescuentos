@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include "gestor.h"
-
+#include <cstring>
 using namespace std;
 
 
@@ -83,7 +83,7 @@ void crearArchivoClientes() {
     }
     
     arch.close();
-    cout << "✓ Archivo cliente.dat creado con 10 clientes ficticios" << endl;
+    cout << "Archivo cliente.dat creado con 10 clientes ficticios" << endl;
 }
 
 // Función para crear archivo de ventas ficticias
@@ -124,7 +124,7 @@ void crearArchivoVentas() {
     }
     
     arch.close();
-    cout << "✓ Archivo ventas.dat creado con 20 registros de ventas ficticias" << endl;
+    cout << "Archivo ventas.dat creado con 20 registros de ventas ficticias" << endl;
 }
 
 int main()
@@ -143,9 +143,9 @@ int main()
     cout << "PASO 2: Cargando datos en el sistema..." << endl;
     Gestor gestor;
     gestor.leerArchivos();
-    cout << "✓ Clientes cargados desde cliente.dat" << endl;
+    cout << "Clientes cargados desde cliente.dat" << endl;
     gestor.procesarVentas();
-    cout << "✓ Ventas procesadas desde ventas.dat" << endl;
+    cout << "Ventas procesadas desde ventas.dat" << endl;
     cout << endl;
     
    

@@ -18,7 +18,7 @@ struct strVentas{
 };
 
 Gestor::Gestor()  {}
-
+Gestor::~Gestor(){}
 void Gestor::leerArchivos(){
     ifstream arch ("cliente.dat", ios::in);
     if(!arch)cout << "error";
