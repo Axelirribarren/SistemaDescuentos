@@ -138,4 +138,4 @@ PASO 3: Resultados de las consultas
 
 ## 👨‍💻 Autor
 
-Sistema desarrollado como proyecto de práctica del patrón Strategy.
+Sistema desarrollado por Axel Irribarren como proyecto de práctica del patrón Strategy.
